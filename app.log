@@ -1,0 +1,12 @@
+2024-10-21 00:43:36,541 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-21 00:43:36,541 INFO [33mPress CTRL+C to quit[0m
+2024-10-21 00:43:36,549 INFO  * Restarting with stat
+2024-10-21 00:43:39,988 WARNING  * Debugger is active!
+2024-10-21 00:43:40,004 INFO  * Debugger PIN: 867-574-197
+2024-10-21 00:44:03,958 DEBUG Starting new HTTPS connection (1): stats.nba.com:443
+2024-10-21 00:44:05,015 DEBUG https://stats.nba.com:443 "GET /stats/leaguedashteamstats?Conference=&DateFrom=&DateTo=&Division=&GameScope=&GameSegment=&LastNGames=0&LeagueID=&Location=&MeasureType=Base&Month=0&OpponentTeamID=0&Outcome=&PORound=&PaceAdjust=N&PerMode=Totals&Period=0&PlayerExperience=&PlayerPosition=&PlusMinus=N&Rank=N&Season=2024-25&SeasonSegment=&SeasonType=Regular+Season&ShotClockRange=&StarterBench=&TeamID=&TwoWay=&VsConference=&VsDivision= HTTP/11" 200 550
+2024-10-21 00:44:05,033 INFO Data fetched successfully on attempt 1
+2024-10-21 00:44:05,033 WARNING Fetched data is empty
+2024-10-21 00:44:05,034 ERROR No data available after retries
+2024-10-21 00:44:05,035 INFO 127.0.0.1 - - [21/Oct/2024 00:44:05] "GET / HTTP/1.1" 200 -
