@@ -10,3 +10,11 @@
 2024-10-21 00:44:05,033 WARNING Fetched data is empty
 2024-10-21 00:44:05,034 ERROR No data available after retries
 2024-10-21 00:44:05,035 INFO 127.0.0.1 - - [21/Oct/2024 00:44:05] "GET / HTTP/1.1" 200 -
+2024-10-21 00:48:58,433 DEBUG Starting new HTTPS connection (1): stats.nba.com:443
+2024-10-21 00:48:59,685 DEBUG https://stats.nba.com:443 "GET /stats/leaguedashteamstats?Conference=&DateFrom=&DateTo=&Division=&GameScope=&GameSegment=&LastNGames=0&LeagueID=&Location=&MeasureType=Base&Month=0&OpponentTeamID=0&Outcome=&PORound=&PaceAdjust=N&PerMode=Totals&Period=0&PlayerExperience=&PlayerPosition=&PlusMinus=N&Rank=N&Season=2024-25&SeasonSegment=&SeasonType=Regular+Season&ShotClockRange=&StarterBench=&TeamID=&TwoWay=&VsConference=&VsDivision= HTTP/11" 200 550
+2024-10-21 00:48:59,702 INFO Data fetched successfully on attempt 1
+2024-10-21 00:48:59,702 WARNING Fetched data is empty
+2024-10-21 00:48:59,702 ERROR No data available after retries
+2024-10-21 00:48:59,702 INFO 127.0.0.1 - - [21/Oct/2024 00:48:59] "GET / HTTP/1.1" 200 -
+2024-10-21 00:53:18,214 INFO  * Detected change in 'C:\\Users\\KENNETH\\Desktop\\keNBA\\app.py', reloading
+2024-10-21 00:53:18,438 INFO  * Restarting with stat

@@ -3,32 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NBA Team Stats</title>
-    <link rel="stylesheet" href="/static/style.css">
+    <title>NBA Betting App</title>
 </head>
 <body>
-    <h1>NBA Team Stats - Current Season</h1>
-    <table>
-        <thead>
-            <tr>
-                <th>Team</th>
-                <th>Wins</th>
-                <th>Losses</th>
-                <th>Win %</th>
-                <th>Points</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for team in team_stats %}
-            <tr>
-                <td>{{ team['TEAM_NAME'] }}</td>
-                <td>{{ team['W'] }}</td>
-                <td>{{ team['L'] }}</td>
-                <td>{{ team['W_PCT'] }}</td>
-                <td>{{ team['PTS'] }}</td>
-            </tr>
-            {% endfor %}
-        </tbody>
-    </table>
+    <h1>Welcome to the NBA Betting App</h1>
+    <nav>
+        <ul>
+            <li><a href="/nba-teams">View NBA Teams</a></li>
+        </ul>
+    </nav>
 </body>
 </html>
