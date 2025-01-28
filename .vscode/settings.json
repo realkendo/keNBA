@@ -1,0 +1,6 @@
+{
+    "notebook.output.fontFamily": "roboto",
+    "notebook.output.textLineLimit": 50,
+    "notebook.output.scrolling": true,
+    "notebook.output.wordWrap": true
+}
